@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: rgb(187, 187, 187); */
+    background: linear-gradient(skyblue,blue,skyblue);
+}
+.iconBox{
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+    margin-left: 70px;
+}
+.outerBox{
+    text-align: center;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+}
+button{
+    padding: 10px 15px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(18, 127, 216);
+    /* border: none; */
+}
+input{
+    margin-right: 3px;
+    width: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cityName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.temp{
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.weather{
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outerBoxMid{
+
+    .cityName{
+        padding: 10px 0px 5px 0px;
+    }
+    .weather{
+        padding: 10px 0px;
+    }
+    .temp{
+        padding: 5px 0px;
+    }
+
+}
+
+.outerBoxBot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .box{
+        /* border: 1px solid black; */
+
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+        border-radius: 5px;
+        height: 80px;
+        box-shadow: 2px 2px 2px grey, inset 1px 1px 1px grey;
+        /* background-color: #fff; */
+        width: 30%;
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        p i{
+            font-size: 30px;
+            padding: 10px 0px;
+        }
+        .percent{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    }
+
+}
+
+
+.errMsg{
+    padding: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+.percent{
+    padding-top: 10px;
+}
